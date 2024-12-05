@@ -2,10 +2,10 @@
 #define INC_BOOTLOADER_H_
 
 /* Include files */
-#include "main.h"
-#include "stdio.h"
-#include "stdlib.h"
+#include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
+#include "main.h"
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
@@ -118,6 +118,3 @@ stm32_err_t stm32_erase_memory(UART_HandleTypeDef *huart, uint8_t cmd, uint8_t s
 stm32_err_t stm32_go(UART_HandleTypeDef *huart, uint32_t address);
 
 #endif /* INC_BOOTLOADER_H_ */
-
-
-

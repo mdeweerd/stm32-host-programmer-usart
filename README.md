@@ -2,18 +2,18 @@
 How to program a STM32 with another STM32 using the system bootloader interface
 
 ## Example
-This example an implementaiton following the AN3155 protocol and AN2606 entry points.
+This example an implementation following the AN3155 protocol and AN2606 entry points.
 
 ## Hardware and Tools required
 - Nucleo-L4R5ZI
-- USB A to Micro USB B Cable 
+- USB A to Micro USB B Cable
 - STM32CubeIDE (Tested on v1.13.2)
 - STM32CubeProg (Tested on v2.14.0)
 - Teraterm(v4.106 or higher) is recommended, although any terminal emulator software can be used.
 
 ## Description of stm32-host-programmer-an3155
-This directory contains a set of sources files and pre-configured projects that 
-describes how to create the stm32 host to program other stm32s using USART interface following the AN3155 protocol.
+This directory contains a set of source files and pre-configured projects that
+describe how to create the stm32 host to program other stm32s using the USART interface following the AN3155 protocol.
 
 ## Details
 Please refer to the Knowledge Base Article for a full code explanation and implementation: https://community.st.com/t5/stm32-mcus/how-to-program-a-stm32-with-another-stm32-using-the-native/ta-p/612362

@@ -533,7 +533,7 @@ stm32_err_t stm32_write_memory(UART_HandleTypeDef *huart, uint32_t address,
 	/* Sets the first byte of the buf array to the checksum value calculated previously */
 	buf[0] = aligned_len - 1;
 
-	/* Loop that iterates over the lenght len  */
+	/* Loop that iterates over the length len  */
 	for (i = 0; i < len; i++) {
 
 		/* Calculates the checksum for the current data by performing a bitwise XOR operation between the current byte of data and the current value of the checksum */
@@ -802,4 +802,3 @@ stm32_err_t stm32_go(UART_HandleTypeDef *huart, uint32_t address)
 	/* Returns Status OK */
 	return STM32_ERR_OK;
 }
-
